@@ -1,7 +1,5 @@
 # ppt-grill — 门控式 PPT 制作流程规划 Skill
 
-> 仓库名 ppt-grill，skill 名 `ppt-production`（frontmatter 中 name 字段）。
-
 一个门控式 PPT 制作流程规划 skill：**先问清需求 → 素材到位 → 风格提取确认 → 大纲确认 → 验证页确认 → 委托制作 → 验收交付**。纯规划定位，不直接生成演示文件。
 
 ## 核心流程（五阶段、三道确认门）

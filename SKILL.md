@@ -1,5 +1,5 @@
 ---
-name: ppt-production
+name: ppt-grill
 description: 门控式 PPT 制作流程规划 skill（纯规划，不直接制作文件）：先确认 PPT 主题对象（游戏/小说/产品等）并澄清用途、受众、页数等需求；用户须提供美术资料（一张主视觉 + 数张核心人物立绘），用视觉分析提取美术风格（色彩/画风/版式/字体气质）并确认；产出大纲（含叙事主线与视觉规范）与制作规格，委托外部能力制作验证页与成品，并对照需求/大纲/风格草案验收后交付。当用户要求制作、规划或改进 PPT/演示文稿/幻灯片（presentation / deck / slides）时使用本 skill。
 whenToUse: 用户提出制作 PPT、演示文稿、幻灯片、deck，或要求规划 PPT 制作流程时。关键词：PPT、幻灯片、演示文稿、presentation、slides、deck、路演、汇报、答辩。
 ---
@@ -41,7 +41,7 @@ Phase 0 需求澄清与风格提取 ──门A──▶ Phase 1 大纲与整体�
 
 ## 制作委托（本 skill 不直接制作文件）
 
-ppt-production 只负责规划、规格与验收，**不直接生成演示文件**。制作环节按以下顺序委托：
+ppt-grill 只负责规划、规格与验收，**不直接生成演示文件**。制作环节按以下顺序委托：
 
 1. **PPTX 交付（默认）→ 委托 `ppt-master` 工作流**（已安装于 `vendor/ppt-master/`，仓库 hugohe3/ppt-master，48k+ star）：
    - 执行前先读取并遵守其 `SKILL.md`（注意其硬规则：以绝对路径记为 `SKILL_DIR`、先运行 `scripts/attribution_guard.py` 完整性校验、只读路由选定的 workflow，如 `workflows/generate-pptx.md` / `workflows/create-template.md` / `workflows/profiles/image-to-pptx.md` 等）；

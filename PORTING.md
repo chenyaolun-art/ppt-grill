@@ -7,9 +7,9 @@
 
 | 平台 | 放置目录 |
 |---|---|
-| DeepSeek Harness (DSH) | 项目 `<root>/.dsh/skills/ppt-production/` 或全局 `~/.dsh/skills/ppt-production/` |
-| Claude Code | 项目 `.claude/skills/ppt-production/` 或 `~/.claude/skills/` |
-| Cursor | `.cursor/skills/ppt-production/` |
+| DeepSeek Harness (DSH) | 项目 `<root>/.dsh/skills/ppt-grill/` 或全局 `~/.dsh/skills/ppt-grill/` |
+| Claude Code | 项目 `.claude/skills/ppt-grill/` 或 `~/.claude/skills/` |
+| Cursor | `.cursor/skills/ppt-grill/` |
 | Codex | `~/.codex/skills/`（或按平台文档） |
 | Gemini CLI | 按平台 skills 目录约定 |
 | 其他 | 查平台文档中 SKILL.md 技能的放置路径 |
